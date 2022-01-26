@@ -17,7 +17,7 @@
 
 <body class="main-bg">
     <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
-    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <label class="close-menu-label" for="close-menu" title="close menu"></label><!-- trocado aria-label por aria-pressed validador acusando erro, também trocado no role="de button para true"-->
 
     <aside class="menu white-bg">
         <div class="main-content menu-content">
@@ -54,14 +54,14 @@
     <div class="menu-spacing"></div>
 
     <section class="white-bg section">
-        <section id="intro" class="white-bg section">
+        <div id="intro" class="white-bg section">
             <div class="main-content top3-content">
               <h2>news coverage</h2>
               <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
               <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
               <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
             </div>
-        </section>
+        </div>
     </section>
 
     <section id="grid-one" class="grid-one main-bg section">
@@ -140,8 +140,8 @@
                 <p>We'll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture.</p>
                 <div class="responsive-table">
                     <table>
+                        <caption>Pricing Table</caption>
                         <thead>
-                            <caption>Pricing Table</caption>
                             <tr>
                                 <th>Title 1</th>
                                 <th>Title 2</th>
@@ -212,7 +212,7 @@
     
                     <div class="form-group full-widht">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"placeholder="Digite sua mensagem"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
                     </div>
 
                     <div class="form-group full-widht">
@@ -224,7 +224,11 @@
     </section>
 
     <footer id="footer" class=" footer white-bg">
-        <p><a href="#" title="link aleatorio">Módulo 33- Prática do curso básico de HTML5 e CSS3 <span class="quadrado"> 🧠 </span> do curso do Professor Otávio Miranda </a></p>
+        <p><a href="#" title="link aleatorio">Módulo 33- Prática do curso básico de HTML5 e CSS3 <span class="quadrado"> 🧠 </span> do curso do Professor Otávio Miranda </a><br/><br/>
+        Criado por <em>Felipe Y Castro</em>
+        <a href="https://www.linkedin.com/in/felipe-y-castro-a0124522b/" target="_blank"><img src="/assets/img/icon-linkedin.png" alt="Icone do LinkedIn" title="Meu LinkedIn"></a>
+        <a href="https://github.com/FelipeYCastro" target="_blank"><img src="/assets/img/icon-github.png" alt="Icone do github" title="Meu GitHub"></a>
+        </p>
     </footer>
 
     <a class="back-to-top" href="#home">➤</a>

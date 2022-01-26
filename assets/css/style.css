@@ -155,6 +155,11 @@
 .footer p {
     margin: 0;
     padding: 3rem;
+    color: #555;
+}
+
+.footer img {
+    margin-bottom: -3px;
 }
 
 .close-menu {
